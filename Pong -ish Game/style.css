@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+  }
+  #canvas {
+    background-color: blue;
+  }
+  
+  #play_button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-family: monospace;
+  }
+  .can{
+    border: 2px solid red;
+    border-radius: 15;
+
+  }
+  
+  #play_button:disabled {
+    color: rgb(155, 155, 155);
+  }
